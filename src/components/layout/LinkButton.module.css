@@ -1,0 +1,22 @@
+.header__link__box {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__link__box:hover{
+    & a{
+        color: hsl(220, 13%, 13%);
+    }
+    cursor: pointer;
+    border-bottom: solid hsl(26, 100%, 55%) 4px;
+    padding-top: 3px;
+  }
+
+  .header__link__box a{
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  

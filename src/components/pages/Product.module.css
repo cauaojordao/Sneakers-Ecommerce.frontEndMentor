@@ -1,0 +1,5 @@
+.product__container{
+    padding: 10svh 15svw;
+    display: flex;
+    gap: 10svw;
+}

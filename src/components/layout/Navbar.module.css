@@ -1,0 +1,21 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10svh;
+  margin: 0 10svw;
+  border-bottom: rgba(0, 0, 0, 0.1) solid 2px;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+  & a {
+    text-decoration: none;
+    color: hsl(219, 9%, 52%);
+    font-weight: 400;
+  }
+}
+

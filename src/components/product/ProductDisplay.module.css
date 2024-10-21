@@ -1,0 +1,37 @@
+.display__container{
+    display: flex;
+    flex-direction: column;
+}
+.main__img{
+    max-width: 406px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.thumbs__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.img__selected, .thumbs__img{
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: block;
+}
+
+.thumbs__img:hover{
+    opacity: 0.5;
+}
+
+.img__selected{
+    opacity: 0.2;
+}
+
+.img__selected__container{
+    border-radius: 10px;
+    outline: 2px solid hsl(26, 100%, 72%);
+}
